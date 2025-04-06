@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-/* Основні зміни: */
 body {
-  font-family: 'Caveat', 'Segoe UI', 'Roboto', sans-serif; /* Головний шрифт */
+  font-family: "Dancing Script", cursive;
   background-color: #800020;
   color: #333;
   scroll-behavior: smooth;
@@ -16,7 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 h1, h2, h3 {
-  font-family: 'Marck Script', cursive; /* Альтернатива з підтримкою кирилиці */
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 header {
@@ -329,15 +328,13 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  body {
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 0 0 1px rgba(0,0,0,0.1);
+  nav ul {
+    flex-direction: column;
   }
-}
   
   .avatar, .side-image {
     width: 100%;
     max-width: 350px;
     height: auto;
   }
-}
+}                        
