@@ -3,12 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'Dancing Script';
-  src: local('Dancing Script'), 
-       url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&subset=cyrillic');
-  unicode-range: U+0400-04FF;
-}
 body {
   font-family: "Dancing Script", cursive;
   background-color: #800020;
