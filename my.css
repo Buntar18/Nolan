@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Underdog', 'Caveat', system-ui, sans-serif; /* Основний шрифт */
+  text-shadow: 0 0 0.5px currentColor;
   background-color: #800020;
   color: #333;
   scroll-behavior: smooth;
