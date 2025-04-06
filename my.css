@@ -34,7 +34,10 @@ header {
   top: 0;
   z-index: 1000;
 }
-
+header h1 {
+  color: white; /* Білий колір */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Тінь для кращої читабельності */
+}
 nav ul {
   list-style: none;
   display: flex;
