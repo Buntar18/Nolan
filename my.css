@@ -5,17 +5,23 @@
 }
 
 body {
-  font-family: "Dancing Script", cursive;
+  font-family: 'Underdog', 'Caveat', system-ui, sans-serif; /* Основний шрифт */
   background-color: #800020;
   color: #333;
   scroll-behavior: smooth;
   font-size: clamp(16px, 2.5vw, 18px);
-  line-height: 1.6;
+  line-height: 1.5; /* Збільшимо для кращої читабельності */
   text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.3px; /* Додамо трохи простору між літерами */
 }
+
 h1, h2, h3 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-family: 'Underdog', cursive;
+  font-weight: 700; /* Жирність для заголовків */
+  letter-spacing: 1px;
+  color: #1a237e;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 header {
