@@ -9,6 +9,13 @@ body {
   background-color: #800020;
   color: #333;
   scroll-behavior: smooth;
+  font-size: clamp(16px, 2.5vw, 18px);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 header {
